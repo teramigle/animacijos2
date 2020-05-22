@@ -1,0 +1,29 @@
+body {
+   background-color: #FFFA0A;
+   display: flex;
+   height: 90vh;
+   justify-content: center;
+   align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+div {
+    animation-name: mario;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes mario {
+    from {
+       transform: scale(1.5); 
+    }
+    to {
+       transform: scale(0.2); 
+    }
+}
